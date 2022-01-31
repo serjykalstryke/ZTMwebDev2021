@@ -1,0 +1,32 @@
+/* 
+Structure of CSS
+
+Selector {
+  Property: value;
+} 
+
+*/
+
+h2 {
+  color: red;
+}
+
+p {
+  color: pink;
+}
+
+/* Cascading Style Sheets - 
+
+CSS will take the last selected input in the file, for example
+
+*/
+
+p {
+  color: green;
+}
+
+/*  ^----Notice ---- ^ 
+
+the last command made the p tags green, even though they were previously told to be colored pink
+
+*/
