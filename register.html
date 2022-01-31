@@ -8,9 +8,25 @@
   </head>
   <body>
     <form action="">
-      First Name:<input type="text" /><br />
-      Last Name: <input type="text" /><br />
-      Email: <input type="text" /><br />
+      <!-- THIS IS A COMMENT. ctrl + / will comment a line -->
+      First Name:<input type="text" name="firstname" /><br />
+      Last Name: <input type="text" name="lastname" /><br />
+      Email: <input type="email" name="email" required /><br />
+      Password:
+      <input type="password" name="password" id="paddword" min="6" /><br />
+      Birthday: <input type="date" name="birthday" id="" /><br />
+      Sex: <input type="radio" name="sex" value="male" id="sex" />Male
+      <input type="radio" name="sex" value="female" id="sex" />Female<br />
+      Pets: <br />
+      <input type="checkbox" name="cat" id="" />Cat <br />
+      <input type="checkbox" name="dog" id="" />Dog <br />
+      Cars: <br />
+      <select name="" id="">
+        <option name="cars" value="volvo">Volvo</option>
+        <option name="cars" value="honda">Honda</option>
+        <option name="cars" value="toyota">Toyota</option>
+      </select>
+      <br />
       <input type="submit" value="register" />
       <input type="reset" value="reset" />
     </form>
