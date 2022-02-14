@@ -35,7 +35,11 @@ CSS will take the last selected input in the file, for example
 */
 
 p {
-  color: green;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /*  ^----Notice ---- ^ 
@@ -43,6 +47,15 @@ p {
 the last command made the p tags green, even though they were previously told to be colored pink. CSS rules flow down, so the lowest rule will overwrite an earlier rule
 
 */
+
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
 
 li {
   list-style: none;
